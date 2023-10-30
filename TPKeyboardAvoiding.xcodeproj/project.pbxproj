@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1777CB0095EA4C0DFA28CFC2 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 474C0651380BFC5F871A6024 /* TPKeyboardAvoidingScrollView.m */; };
 		22702DBD741E59B4649BD493 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E15C40266065AD6D709485A0 /* TPKeyboardAvoidingTableView.m */; };
-		23622B963F6619E8D792F93B /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3D3C8C67B9768BB55A0AD8 /* UIScrollView+TPKeyboardAvoidingAdditions.h */; };
+		23622B963F6619E8D792F93B /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3D3C8C67B9768BB55A0AD8 /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36E90527615B29640514259D /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEBF193F2523558F407DCB9 /* TPKeyboardAvoidingCollectionView.m */; };
 		61B6A2000B161ACC860D4FC2 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9D9DA153EDE21BD654AEF3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
-		9E6F4631411A5336E9ED8B1C /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4D83EE0148C1B31527D8ED /* TPKeyboardAvoidingCollectionView.h */; };
-		A391F2032110D3FDFC13DCC3 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B4F53404DC4E1FD5A6869A /* TPKeyboardAvoidingScrollView.h */; };
-		D52F5048A5F392446E9E623C /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5542A5DED6D207193C720A7 /* TPKeyboardAvoidingTableView.h */; };
+		9E6F4631411A5336E9ED8B1C /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4D83EE0148C1B31527D8ED /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A391F2032110D3FDFC13DCC3 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B4F53404DC4E1FD5A6869A /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D52F5048A5F392446E9E623C /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5542A5DED6D207193C720A7 /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		0BEBF193F2523558F407DCB9 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		2874DDC02AF0042D0090351B /* TPKeyboardAvoiding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoiding.h; sourceTree = "<group>"; };
 		3E3D3C8C67B9768BB55A0AD8 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		474C0651380BFC5F871A6024 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		63B4F53404DC4E1FD5A6869A /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 				E15C40266065AD6D709485A0 /* TPKeyboardAvoidingTableView.m */,
 				3E3D3C8C67B9768BB55A0AD8 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
 				8D9D9DA153EDE21BD654AEF3 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				2874DDC02AF0042D0090351B /* TPKeyboardAvoiding.h */,
 			);
 			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
@@ -161,8 +163,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 6F380FD5FDAE8E24B71CC914 /* Build configuration list for PBXProject "TPKeyboardAvoiding" */;
 			compatibilityVersion = "Xcode 14.0";
